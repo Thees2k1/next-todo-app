@@ -24,3 +24,9 @@ export interface buttonProps {
     onClick?: ()=>void;
   }
 
+export interface todoProps{
+  id:string;
+  title?: string|null;
+  isCompleted: boolean;
+  createdAt?: Date;
+}
